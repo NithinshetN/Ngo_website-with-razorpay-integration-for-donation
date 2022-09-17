@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg)!important;
+    background-position: center;
+    background-size: cover;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.writing {
+    color: white;
+    display: inline-flex;
+    margin-left: 0%;
+    position: center;
+    padding-top: -10%!important;
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.pro {
+    width: 50%;
+    padding-top: 3%;
+    margin-left: 5px;
+    display: inline-flexbox;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+    float: left;
+    padding-top: 2%;
+}
+
+.navbar1 {
+    height: 12%;
+    display: flex;
+    justify-content: end;
+    padding-top: 4%;
+}
+
+hr {
+    color: white !important;
+}
+
+a {
+    color: rgb(166, 252, 247) !important;
+}
+
+a:hover {
+    box-shadow: white;
+    border-radius: 10px;
+}
+
+nav {
+    flex: -1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.conta{
+    max-width: 1170px;
+    background-color: red;
+    margin:auto;
+}
+.footer {
+    background-color: #24262b;
+}
+
