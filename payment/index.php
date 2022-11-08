@@ -56,7 +56,7 @@ body {
     outline: none;
     background: none;
     font-size: 18px;
-    color:white;
+    color:black;
     /* padding: 10px 10px 10px 5px; */
     padding-top:14px;
     padding-right:10px;
@@ -126,7 +126,7 @@ body {
                data:"amt="+amt+"&name="+name,
                success:function(result){
                    var options = {
-                        "key": "rzp_test_FjGqasLyxkbSwO", 
+                        "key": "", 
                         "amount": amt*100, 
                         "currency": "INR",
                         "name": "Hope Ngo",

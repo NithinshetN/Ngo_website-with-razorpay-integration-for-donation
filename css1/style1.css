@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../images/background.jpg)!important;
     background-position: center;
     background-size: cover;
 }
@@ -20,19 +20,20 @@ body {
 
 .writing {
     color: white;
-    display: inline-block;
-    margin-left: 62%;
-    position: relative;
-    padding-top: 3%;
-    text-align: left;
-    line-height: 35px;
+    display: inline-flex;
+    margin-left: 0%;
+    position: center;
+    padding-top: -10%!important;
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 25px;
 }
 
 .pro {
     width: 50%;
     padding-top: 3%;
-    display: inline-block;
-    position: absolute;
+    margin-left: 5px;
+    display: inline-flexbox;
     border-radius: 10px;
 }
 

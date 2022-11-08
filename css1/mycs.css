@@ -3,7 +3,7 @@
 
 }
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.jpg)!important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../images/background.jpg)!important;
     background-position: center;
     background-size: cover;
     margin: 0;
@@ -20,7 +20,7 @@ body{
 }
 .login
 {
-    background-image: url(unnamed.jpg)!important;
+    background-image: url(./../images/unnamed.jpg)!important;
     background-position: center;
     background-size: cover;
     width: 430px;
@@ -33,7 +33,7 @@ body{
 }
 .logo
 {
-    background: url(logo.png);
+    background: url(./../images/logo.png);
     border-radius: 5%;
     width: 210px;
     height: 97px;
@@ -58,7 +58,7 @@ body{
     outline: none;
     background: none;
     font-size: 18px;
-    color: #555;
+    color: rgb(8, 6, 6);
     padding: 20px 10px 20px 5px;
 
 }
@@ -78,7 +78,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     font-family: "Lato",sans-serif;
-    color:#fff;
+    color:rgb(17, 16, 16);
     text-align: center;
     background-color: #02c8db;
     box-shadow: 3px 3px 8px #b1b1b1,-3px -3px 8px #fff;
